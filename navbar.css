@@ -6,7 +6,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 .container{
-    max-width: 1368px;
+    max-width: 1388px;
     margin: 0 auto;
 }
 li{
@@ -24,11 +24,19 @@ nav ul{
     display: inline-block;
     float: right;
     margin-top: -50px;
-    margin-left: 20px;
+    margin-left: 70px;
+    cursor: pointer;
 }
 nav li{
     display: inline-block;
     color: black;
     font-size: 18px;
     margin-left: 50px;
+}
+.title_one{
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+nav ul li:hover{
+    color: rgb(67, 111, 116);
 }
